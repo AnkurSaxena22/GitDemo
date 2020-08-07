@@ -40,6 +40,7 @@ public class ValidateText extends base {
 		
 		Assert.assertEquals(value, "FATURE COURSE");
 		log.info("Test Validation successfull");
+		System.out.println("Created copy from Github");
 		
 		
 	}
