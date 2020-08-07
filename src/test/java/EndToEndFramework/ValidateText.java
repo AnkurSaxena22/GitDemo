@@ -55,6 +55,7 @@ public class ValidateText extends base {
 	public void closebrowser() {
 		System.out.println("Closing browser now");
 		driver.close();
+		System.out.println("Browser is closed");
 	}
 
 }
