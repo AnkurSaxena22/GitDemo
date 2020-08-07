@@ -53,6 +53,7 @@ public class ValidateText extends base {
 	@AfterTest
 	
 	public void closebrowser() {
+		System.out.println("Closing browser now");
 		driver.close();
 	}
 
