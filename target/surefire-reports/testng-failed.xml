@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="EndToEndFramework.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="HomeLogin(failed)" parallel="tests">
+    <classes>
+      <class name="EndToEndFramework.HomePage">
+        <methods>
+          <include name="openURL"/>
+          <include name="browserInvoke"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- EndToEndFramework.HomePage -->
+    </classes>
+  </test> <!-- HomeLogin(failed) -->
+  <test thread-count="5" verbose="0" name="ValidateText(failed)" parallel="tests">
+    <classes>
+      <class name="EndToEndFramework.ValidateText">
+        <methods>
+          <include name="navigationtab"/>
+          <include name="textcheck"/>
+          <include name="prerequiste"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- EndToEndFramework.ValidateText -->
+    </classes>
+  </test> <!-- ValidateText(failed) -->
+</suite> <!-- Failed suite [Suite] -->

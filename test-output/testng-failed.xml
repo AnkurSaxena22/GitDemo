@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="EndToEndFramework.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="ValidateText(failed)" parallel="tests">
+    <classes>
+      <class name="EndToEndFramework.ValidateText">
+        <methods>
+          <include name="textcheck"/>
+          <include name="prerequiste"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- EndToEndFramework.ValidateText -->
+    </classes>
+  </test> <!-- ValidateText(failed) -->
+</suite> <!-- Failed suite [Suite] -->

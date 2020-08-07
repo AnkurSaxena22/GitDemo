@@ -1,0 +1,6 @@
+19:46:45.048 [TestNG-tests-2] INFO  EndToEndFramework.ValidateText - Opening URL
+19:46:46.545 [TestNG-tests-2] INFO  EndToEndFramework.ValidateText - Test Validation successfull
+19:46:47.665 [TestNG-tests-2] INFO  EndToEndFramework.Listeners - textcheck Test cases is failed
+19:46:54.067 [TestNG-tests-1] INFO  EndToEndFramework.HomePage - Test Validation successfull
+19:46:57.300 [TestNG-tests-1] INFO  EndToEndFramework.HomePage - Test Validation successfull
+19:47:43.227 [TestNG-tests-2] INFO  EndToEndFramework.ValidateText - Driver is initialised

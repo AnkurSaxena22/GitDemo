@@ -1,0 +1,5 @@
+19:48:08.155 [TestNG-tests-2] INFO  EndToEndFramework.ValidateText - Opening URL
+19:48:08.765 [TestNG-tests-2] INFO  EndToEndFramework.ValidateText - Test Validation successfull
+19:48:08.851 [TestNG-tests-2] INFO  EndToEndFramework.Listeners - textcheck Test cases is failed
+19:48:11.050 [TestNG-tests-1] INFO  EndToEndFramework.HomePage - Test Validation successfull
+19:48:15.836 [TestNG-tests-1] INFO  EndToEndFramework.HomePage - Test Validation successfull

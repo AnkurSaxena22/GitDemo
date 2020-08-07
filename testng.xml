@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="EndToEndFramework.Listeners"></listener>
+</listeners>
+  <test name="HomeLogin">
+    <classes>
+      <class name="EndToEndFramework.HomePage"/>
+    </classes>
+  </test> 
+  
+  <test name="ValidateText">
+    <classes>
+      <class name="EndToEndFramework.ValidateText"/>
+    </classes>
+  </test> 
+      
+  
+</suite> 
